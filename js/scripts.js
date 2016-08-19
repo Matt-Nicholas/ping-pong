@@ -13,7 +13,7 @@ function gameLoop(num){
       resultArray.push('<li>' + i + '</li>');
     }
   }
-  resultString = resultArray.join();
+  resultString = resultArray.join('');
   return resultString;
 }
 // User Logic
