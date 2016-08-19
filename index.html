@@ -1,66 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ping-Pong</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" media"screen">
-  <link href="css/styles.css" rel="stylesheet" media"screen">
-  <script src="js/jquery-3.1.0.js"></script>
-  <script src="js/scripts.js"></script>
-</head>
-<body>
-  <div class="container">
-    <h1>Ping-Pong</h1>
-    <div class="row">
-      <div class="col-sm-4">
-        <div id="sidebar">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ping-Pong</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media"screen">
+    <link href="css/styles.css" rel="stylesheet" media"screen">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ping-Pong</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <div id="sidebar">
             <h3>About Ping Pong</h3>
             <h4>Created by:</h4>
-            <p>
-              Matt Nicholas
-            </p>
+            <p>Matt Nicholas</p>
             <h4>GitHub Username/URL:</h4>
             <a href="https://github.com/Matt-Nicholas/ping-pong">Matt-Nicholas</a>
             <h4>Week 3 Independent Project:</h4>
-            <p>
-              Arrays &amp; Looping
-            </p>
+            <p>Arrays &amp; Looping</p>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h3>Let's Play!</h3>
+          <h4>Rules:</h4>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 will become "ping"</li>
+            <li>Numbers divisible by 5 will become "pong"</li>
+            <li>Numbers divisible by 15 will become "pingpong"</li>
+          </ol>
+          <div class="row">
+            <div class="col-sm-3">
+              <p><strong>Enter Your Number Here:</strong></p>
+              <ul id="uList">
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <form class="form-horizontal">
+                <div class="form-group" id="inputForm">
+                  <input id="userInput" type="text" class="form-control">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <button class="submitButton">Ping Pong</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    <div class="col-sm-8">
-      <h3>Let's Play!</h3>
-      <h4>Rules:</h4>
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-
-      <ol>
-        <li>Numbers divisible by 3 will become "ping"</li>
-        <li>Numbers divisible by 5 will become "pong"</li>
-        <li>Numbers divisible by 15 will become "pingpong"</li>
-      </ol>
-      <div class="row">
-        <div class="col-sm-3">
-          <p>
-            <strong>Enter Your Number Here:</strong>
-          </p>
-          <ul id="uList">
-          </ul>
-        </div>
-
-        <div class="col-sm-3">
-          <form class="form-horizontal">
-        <div class="form-group" id="inputForm">
-          <input id="userInput" type="text" class="form-control">
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <button class="submitButton">Ping Pong</button>
-      </div>
-
-      </form>
     </div>
-  </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>
