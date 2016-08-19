@@ -16,6 +16,8 @@ function gameLoop(num){
   resultString = resultArray.join('');
   return resultString;
 }
+function numVerify(input){
+}
 // User Logic
 $(document).ready(function(){
   $('.submitButton').click(function(event){
