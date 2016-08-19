@@ -1,7 +1,11 @@
 .container{
+  border: solid 2px black;
   background-color: #E6E6E6;
 }
 h1{
+  border: solid 1px red;
+
+  text-align: center;
   background-color: #F5DFB3;
   width: 100%;
   padding-top: 50px;
@@ -9,4 +13,8 @@ h1{
 }
 #submitButton{
   background-color: #BFBFBF;
+}
+#sidebar{
+  border: solid 1px red;
+  background-color: #8FBC8E;
 }
