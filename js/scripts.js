@@ -1,22 +1,18 @@
 // Business Logic
 function gameLoop(num){
   var resultArray = [];
-  var resultString = "";
   for(var i = 1; i <= num; i++){
     if((i % 15) === 0){
-      resultArray.push('<li>pingpong</li>');
+      resultArray.push('pingpong');
     }else if((i % 5) === 0){
-      resultArray.push('<li>pong</li>');
+      resultArray.push('pong');
     }else if((i %3) === 0){
-      resultArray.push('<li>ping</li>');
+      resultArray.push('ping');
     }else{
-      resultArray.push('<li>' + i + '</li>');
+      resultArray.push(i);
     }
   }
-  resultString = resultArray.join('');
-  return resultString;
-}
-function numVerify(input){
+  return resultArray;
 }
 // User Logic
 $(document).ready(function(){
@@ -24,7 +20,10 @@ $(document).ready(function(){
     event.preventDefault();
     $('#uList').empty();
     var input = parseInt($('#userInput').val());
-    resultString = gameLoop(input);
-    $('#uList').append(resultString);
+    resultArray = gameLoop(input);
+    console.log(resultArray)
+    for(var i = 0; i < resultArray.length; i++){
+      $('#uList').append('<li>' + resultArray[i] + '</li>');
+    }
   });
 });
