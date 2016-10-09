@@ -6,8 +6,8 @@
     <title>Ping-Pong</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" media"screen">
     <link href="css/styles.css" rel="stylesheet" media"screen">
-    <script src="js/jquery-3.1.0.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
   </head>
   <body>
     <div class="container">
@@ -25,6 +25,11 @@
           </div>
         </div>
         <div class="col-sm-8">
+          <form id="signup">
+            <label for="email">Enter your email:</label>
+            <input type="text" id="email">
+            <button type="submit">Submit</button>
+          </form>
           <h3>Let's Play!</h3>
           <h4>Rules:</h4>
           <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>

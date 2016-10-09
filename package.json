@@ -1,0 +1,30 @@
+{
+  "name": "ping-pong",
+  "version": "1.0.0",
+  "description": "#### A game that accepts a number and returns a list of number and words",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt-Nicholas/ping-pong.git"
+  },
+  "author": "Matt Nicholas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt-Nicholas/ping-pong/issues"
+  },
+  "homepage": "https://github.com/Matt-Nicholas/ping-pong#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
