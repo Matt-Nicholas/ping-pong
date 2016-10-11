@@ -1,0 +1,22 @@
+{
+  "name": "ping-pong",
+  "description": "#### A game that accepts a number and returns a list of number and words",
+  "main": "index.js",
+  "authors": [
+    "Matt Nicholas"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Matt-Nicholas/ping-pong",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}

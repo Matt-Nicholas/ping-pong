@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Matt-Nicholas/ping-pong#readme",
   "devDependencies": {
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.17.2",
     "browserify": "^13.1.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
